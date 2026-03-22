@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mujahid Dental Clinic | Modern Dental Care</title>
+    <meta
+      name="description"
+      content="Mujahid Dental Clinic offers modern, compassionate dental care with easy appointment booking, professional consultation, and AI-powered dental support."
+    />
+    <meta
+      name="keywords"
+      content="dental clinic, dentist, teeth cleaning, braces, tooth pain, Mujahid Dental Clinic, Dr. Talha"
+    />
+    <meta name="theme-color" content="#0f9d58" />
+    <meta property="og:title" content="Mujahid Dental Clinic" />
+    <meta
+      property="og:description"
+      content="Your Smile, Our Responsibility. Book an appointment and explore modern dental care."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="loader" id="loader" aria-hidden="true">
+      <div class="loader__ring"></div>
+      <p>Loading your smile experience...</p>
+    </div>
+
+    <div class="site-shell">
+      <header class="header" id="top">
+        <nav class="navbar container" aria-label="Primary navigation">
+          <a class="brand" href="#home" aria-label="Mujahid Dental Clinic home">
+            <span class="brand__logo">
+              <svg viewBox="0 0 64 64" aria-hidden="true">
+                <defs>
+                  <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#34d27c" />
+                    <stop offset="100%" stop-color="#0f9d58" />
+                  </linearGradient>
+                </defs>
+                <path
+                  d="M32 6c-9 0-17 4.6-21 12.2-5 9.4.7 20.3 2.5 27.8C15.7 55 21 60 28 60c2.1 0 3.2-1.8 4-3.6.8 1.8 1.9 3.6 4 3.6 7 0 12.3-5 14.5-14 1.8-7.5 7.5-18.4 2.5-27.8C49 10.6 41 6 32 6Z"
+                  fill="url(#logoGradient)"
+                />
+                <path
+                  d="M39.6 16.8c-3.2 1.4-5.8 4.4-7.6 9-1.8-4.6-4.4-7.6-7.6-9-2.2 6.3-.6 13 2 17.9 2.4 4.6 3.7 9.2 5.6 14.5 1.9-5.3 3.2-9.9 5.6-14.5 2.6-4.9 4.2-11.6 2-17.9Z"
+                  fill="#062b17"
+                  opacity="0.9"
+                />
+                <path
+                  d="M48 16c-7.5-1.2-12 2.1-15.2 8.2 2.3-7.7 8.3-13.2 15.2-14.7 0 2.1 0 4.3 0 6.5Z"
+                  fill="#b6f5cf"
+                />
+              </svg>
+            </span>
+            <span class="brand__text">
+              <strong>Mujahid Dental Clinic</strong>
+              <small>Advanced Care for Every Smile</small>
+            </span>
+          </a>
+
+          <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span class="sr-only">Toggle navigation</span>
+          </button>
+
+          <div class="nav-links" id="navMenu">
+            <a href="#home">Home</a>
+            <a href="#appointment">Appointment</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+            <a class="btn btn--nav" href="#appointment">Book Now</a>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero section" id="home">
+          <div class="hero__bg">
+            <span class="orb orb--one"></span>
+            <span class="orb orb--two"></span>
+            <span class="orb orb--three"></span>
+            <div class="floating-icons" aria-hidden="true">
+              <span>+</span>
+              <span>✦</span>
+              <span>🦷</span>
+              <span>✚</span>
+            </div>
+          </div>
+          <div class="container hero__grid">
+            <div class="hero__content reveal">
+              <p class="eyebrow">Trusted Dental Wellness</p>
+              <h1>Welcome to Mujahid Dental Clinic</h1>
+              <p class="hero__subtitle">Your Smile, Our Responsibility</p>
+              <p class="hero__description">
+                Premium dental care with a comforting environment, modern treatments,
+                and a patient-first approach designed to keep your smile healthy,
+                bright, and confident.
+              </p>
+              <div class="hero__actions">
+                <a class="btn btn--primary" href="#appointment">Book Appointment</a>
+                <a class="btn btn--ghost" href="#about">Meet Dr. Talha</a>
+              </div>
+              <div class="hero__stats">
+                <article>
+                  <strong>5K+</strong>
+                  <span>Happy Patients</span>
+                </article>
+                <article>
+                  <strong>12+</strong>
+                  <span>Years of Care</span>
+                </article>
+                <article>
+                  <strong>24/7</strong>
+                  <span>AI Assistance</span>
+                </article>
+              </div>
+            </div>
+
+            <div class="hero__visual reveal reveal--delay">
+              <div class="hero-card hero-card--main">
+                <svg class="hero-illustration" viewBox="0 0 640 540" role="img" aria-label="Dental clinic illustration">
+                  <defs>
+                    <linearGradient id="screenGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stop-color="#ddffee" />
+                      <stop offset="100%" stop-color="#7ce8b2" />
+                    </linearGradient>
+                    <linearGradient id="chairGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stop-color="#0f9d58" />
+                      <stop offset="100%" stop-color="#0b5d35" />
+                    </linearGradient>
+                  </defs>
+                  <rect x="88" y="75" width="464" height="314" rx="28" fill="#f7fff9" />
+                  <rect x="112" y="100" width="416" height="220" rx="22" fill="url(#screenGlow)" />
+                  <path d="M228 383h74v56h-74z" fill="#123f27" />
+                  <path d="M336 383h74v56h-74z" fill="#123f27" />
+                  <rect x="248" y="426" width="144" height="18" rx="9" fill="#062b17" opacity="0.3" />
+                  <path d="M424 230c0 42-34 76-76 76s-76-34-76-76 34-76 76-76 76 34 76 76Z" fill="#ffffff" opacity="0.95" />
+                  <path
+                    d="M349 169c-17 0-34 10-42 26-10 18 2 38 4 55 3 21 16 35 35 35 2 0 4-2 5-5 1 3 3 5 5 5 19 0 32-14 35-35 2-17 14-37 4-55-8-16-25-26-42-26Z"
+                    fill="#0f9d58"
+                  />
+                  <path
+                    d="M360 191c-7 3-12 10-16 20-4-10-9-17-16-20-5 14-2 28 4 40 5 10 8 21 12 31 4-10 7-21 12-31 6-12 9-26 4-40Z"
+                    fill="#052d18"
+                  />
+                  <rect x="130" y="340" width="145" height="27" rx="13.5" fill="#dff7e8" />
+                  <rect x="146" y="347" width="84" height="12" rx="6" fill="#0f9d58" />
+                  <rect x="365" y="350" width="123" height="18" rx="9" fill="#d2f4e0" />
+                  <path d="M138 454c52-42 122-54 208-37 51 10 96 11 145-5-34 48-83 72-147 72-96 0-156-10-206-30Z" fill="url(#chairGradient)" />
+                  <circle cx="154" cy="148" r="18" fill="#ffffff" opacity="0.75" />
+                  <circle cx="487" cy="140" r="13" fill="#ffffff" opacity="0.55" />
+                  <path d="M463 176h39" stroke="#ffffff" stroke-width="10" stroke-linecap="round" />
+                  <path d="M482.5 156.5v39" stroke="#ffffff" stroke-width="10" stroke-linecap="round" />
+                </svg>
+                <div class="floating-card floating-card--top">
+                  <span>Smile Design</span>
+                  <strong>Personalized Care</strong>
+                </div>
+                <div class="floating-card floating-card--bottom">
+                  <span>Gentle Procedures</span>
+                  <strong>Modern Equipment</strong>
+                </div>
+              </div>
+              <div class="hero-card hero-card--mini">
+                <div class="mini-pill"><span class="dot"></span>Dental Cleaning</div>
+                <div class="mini-pill"><span class="dot"></span>Braces Consultation</div>
+                <div class="mini-pill"><span class="dot"></span>Tooth Pain Support</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="features section">
+          <div class="container">
+            <div class="section-heading reveal">
+              <p class="eyebrow">Why Patients Choose Us</p>
+              <h2>Comfort-focused care with a premium healthcare experience</h2>
+            </div>
+            <div class="feature-grid">
+              <article class="feature-card reveal">
+                <div class="feature-card__icon">
+                  <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 6c-6 0-11 3-14 8-3 6 .4 13 1.7 18 1.6 6.8 5.2 10 10.3 10 1.3 0 1.9-1.2 2-2.6.1 1.4.7 2.6 2 2.6 5.1 0 8.7-3.2 10.3-10C37.6 27 41 20 38 14c-3-5-8-8-14-8Z"/></svg>
+                </div>
+                <h3>Advanced Dental Care</h3>
+                <p>We combine precise diagnostics, modern tools, and gentle procedures for consistently better outcomes.</p>
+              </article>
+              <article class="feature-card reveal reveal--delay">
+                <div class="feature-card__icon">
+                  <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 8 7 15v10c0 10 7.3 18.7 17 21 9.7-2.3 17-11 17-21V15L24 8Zm0 9a6 6 0 1 1 0 12 6 6 0 0 1 0-12Zm-9.5 18a10.7 10.7 0 0 1 19 0H14.5Z"/></svg>
+                </div>
+                <h3>Patient-First Comfort</h3>
+                <p>Every visit is designed to feel calm, welcoming, and stress-free from consultation to recovery.</p>
+              </article>
+              <article class="feature-card reveal reveal--delay-2">
+                <div class="feature-card__icon">
+                  <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M21 6h6v8h8v6h-8v8h-6v-8h-8v-6h8V6Zm-9 24h24v12H12V30Z"/></svg>
+                </div>
+                <h3>Smart Digital Support</h3>
+                <p>Our integrated AI assistant helps patients with dental questions, treatment basics, and appointment guidance.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="appointment section" id="appointment">
+          <div class="container appointment__grid">
+            <div class="section-heading reveal">
+              <p class="eyebrow">Book Appointment</p>
+              <h2>Reserve your consultation in a few simple steps</h2>
+              <p>Share your details and preferred date. We’ll follow up to confirm your appointment and help you prepare for your visit.</p>
+            </div>
+            <div class="appointment-card reveal reveal--delay">
+              <form class="appointment-form" id="appointmentForm">
+                <label><span>Name</span><input type="text" name="name" placeholder="Enter your full name" required /></label>
+                <label><span>Phone Number</span><input type="tel" name="phone" placeholder="+91 98765 43210" required /></label>
+                <label><span>Date of Appointment</span><input type="date" name="date" required /></label>
+                <button class="btn btn--primary btn--full" type="submit">Submit Request</button>
+                <p class="form-message" id="formMessage" role="status" aria-live="polite"></p>
+              </form>
+            </div>
+          </div>
+        </section>
+
+        <section class="about section" id="about">
+          <div class="container about__grid">
+            <div class="about__visual reveal">
+              <div class="doctor-card">
+                <div class="doctor-card__photo">
+                  <svg viewBox="0 0 420 480" role="img" aria-label="Professional dentist portrait illustration">
+                    <defs>
+                      <linearGradient id="coatGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#ffffff" />
+                        <stop offset="100%" stop-color="#dcefe5" />
+                      </linearGradient>
+                    </defs>
+                    <rect width="420" height="480" rx="36" fill="#dff8e8" />
+                    <circle cx="210" cy="155" r="76" fill="#ffd9c2" />
+                    <path d="M131 149c7-58 43-92 79-92s72 34 79 92c-9-7-23-12-38-14-13-2-28-18-36-37-10 23-36 43-84 51Z" fill="#062b17" />
+                    <path d="M114 448c10-87 45-145 96-145 51 0 86 58 96 145H114Z" fill="url(#coatGradient)" />
+                    <path d="M157 310c18 17 35 26 53 26 18 0 35-9 53-26v53c-12 21-31 35-53 35-22 0-41-14-53-35v-53Z" fill="#f3c3a7" />
+                    <rect x="185" y="215" width="17" height="10" rx="5" fill="#062b17" />
+                    <rect x="218" y="215" width="17" height="10" rx="5" fill="#062b17" />
+                    <path d="M193 249c10 8 24 8 34 0" stroke="#bb6f59" stroke-width="6" stroke-linecap="round" />
+                    <path d="M180 352h60l-11 96h-38l-11-96Z" fill="#0f9d58" />
+                    <path d="M245 352h-70l14-26h42l14 26Z" fill="#fefefe" />
+                    <circle cx="303" cy="119" r="18" fill="#ffffff" opacity="0.7" />
+                    <path d="M300 119h6M303 116v6" stroke="#0f9d58" stroke-width="4" stroke-linecap="round" />
+                  </svg>
+                </div>
+                <div class="doctor-card__badge">Modern Dental Specialist</div>
+              </div>
+            </div>
+            <div class="about__content reveal reveal--delay">
+              <p class="eyebrow">About Us</p>
+              <h2>Meet Dr. Talha</h2>
+              <p>Dr. Talha is a highly skilled dental specialist with years of experience in providing quality dental care. He is dedicated to ensuring patient comfort and delivering the best treatment using modern techniques.</p>
+              <p>From routine cleanings to advanced smile restoration, every treatment plan is tailored to your needs with clarity, compassion, and precision.</p>
+              <div class="about__highlights">
+                <div><strong>Gentle Approach</strong><span>Relaxed and supportive care for all ages</span></div>
+                <div><strong>Latest Techniques</strong><span>Modern methods for safer, smarter treatment</span></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="contact section" id="contact">
+          <div class="container">
+            <div class="section-heading reveal">
+              <p class="eyebrow">Contact</p>
+              <h2>Visit, call, or email us anytime</h2>
+            </div>
+            <div class="contact__grid">
+              <div class="map-card reveal">
+                <iframe title="Mujahid Dental Clinic location" src="https://www.google.com/maps?q=Connaught%20Place%2C%20New%20Delhi&z=14&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+              <div class="contact-cards">
+                <article class="contact-card reveal reveal--delay">
+                  <div class="contact-card__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2c3.9 0 7 3.1 7 7 0 5.2-7 13-7 13S5 14.2 5 9c0-3.9 3.1-7 7-7Zm0 9.5A2.5 2.5 0 1 0 12 6.5a2.5 2.5 0 0 0 0 5Z"/></svg></div>
+                  <div><h3>Address</h3><p>123 Smile Avenue, Health District, New Delhi, India</p></div>
+                </article>
+                <article class="contact-card reveal reveal--delay-2">
+                  <div class="contact-card__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Zm0 3 8 5 8-5"/></svg></div>
+                  <div><h3>Email</h3><p><a href="mailto:mujahiddental@gmail.com">mujahiddental@gmail.com</a></p></div>
+                </article>
+                <article class="contact-card reveal reveal--delay-3">
+                  <div class="contact-card__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.7 15.7 0 0 0 6.6 6.6l2.2-2.2c.3-.3.8-.4 1.2-.3 1.3.4 2.7.6 4.1.6.7 0 1.3.6 1.3 1.3V21c0 .7-.6 1.3-1.3 1.3C10.4 22.3 1.7 13.6 1.7 3.3 1.7 2.6 2.3 2 3 2h4.3c.7 0 1.3.6 1.3 1.3 0 1.4.2 2.8.6 4.1.1.4 0 .9-.3 1.2l-2.3 2.2Z"/></svg></div>
+                  <div><h3>Phone</h3><p><a href="tel:+919876543210">+91 98765 43210</a></p></div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="container footer__inner">
+          <p>© <span id="year"></span> Mujahid Dental Clinic. Crafted for a brighter smile.</p>
+          <a href="#top">Back to top</a>
+        </div>
+      </footer>
+    </div>
+
+    <button class="chatbot-toggle" id="chatbotToggle" aria-label="Open dental AI chatbot">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M12 2C6.5 2 2 6.1 2 11.2c0 2.8 1.4 5.3 3.7 7l-.8 3.8 4-2.1c1 .2 2 .3 3.1.3 5.5 0 10-4.1 10-9.2S17.5 2 12 2Zm-4.5 8.8A1.3 1.3 0 1 1 7.5 8a1.3 1.3 0 0 1 0 2.7Zm4.5 0A1.3 1.3 0 1 1 12 8a1.3 1.3 0 0 1 0 2.7Zm4.5 0A1.3 1.3 0 1 1 16.5 8a1.3 1.3 0 0 1 0 2.7Z" />
+      </svg>
+    </button>
+
+    <aside class="chatbot" id="chatbot" aria-hidden="true">
+      <div class="chatbot__header">
+        <div>
+          <strong>Dental AI Assistant</strong>
+          <p>Ask about tooth pain, cleaning, braces, and more</p>
+        </div>
+        <button class="chatbot__close" id="chatbotClose" aria-label="Close chatbot">×</button>
+      </div>
+      <div class="chatbot__messages" id="chatMessages">
+        <div class="message message--bot">
+          Hello! I’m your dental assistant. Ask me about common dental concerns, oral hygiene, braces, cleanings, or appointment prep.
+        </div>
+      </div>
+      <form class="chatbot__form" id="chatForm">
+        <input id="chatInput" type="text" placeholder="Type your dental question..." autocomplete="off" required />
+        <button type="submit">Send</button>
+      </form>
+    </aside>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
