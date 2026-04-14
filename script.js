@@ -16,7 +16,7 @@ const chatInput = document.getElementById("chatInput");
 const chatMessages = document.getElementById("chatMessages");
 
 const systemPrompt = `
-You are a helpful AI dental assistant for Dr.Zain Abuzar Dakhni's Dental Clinic.
+You are a helpful AI dental assistant for Mujahid Dental Clinic.
 Provide clear, careful, friendly answers about common dental topics such as:
 - tooth pain
 - cavities
